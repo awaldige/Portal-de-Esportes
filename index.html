@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Esportes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+      <img src="portal de esportes aw.png" alt="Logo Portal de Esportes" class="logo">
+    <h1>Portal de Esportes</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sports">Esportes</a></li>
+        <li><a href="#news">Notícias</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+    <button id="toggleTheme">🌙 Modo Escuro</button>
+
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Bem-vindo ao Portal de Esportes!</h2>
+      <p>Acompanhe as últimas notícias e eventos do mundo dos esportes.</p>
+    </section>
+
+    <section id="sports">
+      <h2>Esportes em Destaque</h2>
+      <ul>
+        <li>Futebol</li>
+        <li>Basquete</li>
+        <li>Tênis</li>
+        <li>Natação</li>
+        <li>Ciclismo</li>
+        <li>Automobilismo</li>
+        <li>Vôlei</li>               
+      </ul>
+
+      <div class="sports-gallery">
+        <img src="futebol.jpg" alt="Jogo de Futebol">
+        <img src="basquete.jpg" alt="Partida de Basquete">
+        <img src="tenis.jpg" alt="Jogador de Tênis">
+        <img src="natacao.jpg" alt="Nadador em Ação">
+        <img src="ciclismo.jpg" alt="Ciclista em Competição">
+        <img src="automobilismo.jpg" alt="Carro de Corrida">
+        <img src="volei.jpg" alt="Jogo de Vôlei">
+      </div>
+    </section>
+
+    <section id="news">
+      <h2>Últimas Notícias</h2>
+      <article>
+        <h3>Notícias em destaque</h3>
+        <p>Lucas e Calleri comandam goleada histórica: São Paulo faz 5 a 1 no Corinthians!</p>
+        <p>Palmeiras e Flamengo ficam no 1 X 1 em jogo disputado pela terceira rodada do campeonato.</p>
+        <p>Lewis Hamilton domina a corrida em Silverstone e vence de ponta a ponta na Fórmula 1.</p>
+        <p>Brasil vence Argentina por 3x0 em amistoso preparatório para a Copa do Mundo.</p>
+        <p>Com grande atuação, Chicago Bulls supera o Boston Celtics por 119 a 98 na temporada regular da NBA.</p>
+        <p>Hoje é dia de decisão! Federer e Djokovic se enfrentam na final do US Open.</p> 
+      </article>
+
+      <article class="agenda">
+        <h3>Agenda de Eventos Esportivos ao Vivo</h3>
+        <ul class="eventos">
+          <li>
+            <strong>Futebol - Brasileirão</strong><br>
+            <span>São Paulo x Palmeiras - 12/05 às 16h</span><br>
+            <em>Transmissão: Globo e Premiere</em>
+          </li>
+          <li>
+            <strong>NBA - Temporada Regular</strong><br>
+            <span>Chicago Bulls x Miami Heat - 12/05 às 21h</span><br>
+            <em>Transmissão: ESPN</em>
+          </li>
+          <li>
+            <strong>Fórmula 1 - GP de Mônaco</strong><br>
+            <span>Corrida - 13/05 às 10h</span><br>
+            <em>Transmissão: Band e F1 TV</em>
+          </li>
+          <li>
+            <strong>Vôlei - Superliga</strong><br>
+            <span>Ferroviário x Minas - 13/05 às 19h</span><br>
+            <em>Transmissão: SporTV</em>
+          </li>
+          <li>
+            <strong>Tênis - Roland Garros</strong><br>
+            <span>Final Masculina - 13/05 às 15h</span><br>
+            <em>Transmissão: ESPN</em>
+          </li>
+        </ul>
+      </article>
+
+      <section class="video-destaque">
+  <h3>Destaques em Vídeo</h3>
+  <div class="videos-wrapper">
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/S78AqV0bca0" 
+        title="Vídeo 1"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/P6lI38NpnAo" 
+        title="Vídeo 2"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/8qT7Wli7j8U" 
+        title="Vídeo 3"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
+                   
+
+   <section id="contact">
+  <h2>Contato</h2>
+  <form action="#" method="post">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+</section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Portal de Esportes. Todos os direitos reservados.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
