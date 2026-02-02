@@ -1,78 +1,125 @@
-# 🏟️ Portal de Esportes
+🏟️ Portal de Esportes
 
-**Projeto Front-End desenvolvido com HTML, CSS e JavaScript**, com foco na exibição de notícias, eventos, vídeos e imagens do mundo esportivo. Possui galeria dinâmica, modo claro/escuro, validação de formulário e layout responsivo.
+Portal de esportes desenvolvido em HTML, CSS e JavaScript, focado na exibição de notícias, eventos, imagens e vídeos do mundo esportivo em uma interface moderna e responsiva.
 
-## 🧩 Funcionalidades
+O projeto foi criado para fins de estudo e portfólio, explorando manipulação do DOM, organização de layout e interatividade no front-end.
 
-- 🎨 **Modo Claro/Escuro** com botão de alternância.
-- 📰 **Seções de esportes** com galeria de imagens.
-- 📹 **Destaques em vídeo** com vídeos incorporados do YouTube.
-- 🗓️ **Agenda de eventos ao vivo**.
-- 📬 **Formulário de contato** com validação.
-- 📜 **Scroll suave** entre seções.
-- ⏳ **Tela de carregamento (loader)**.
+🚀 Funcionalidades
 
-## 🖼️ Layout
+🎨 Alternância entre Modo Claro e Escuro
 
-O projeto é composto por uma página única (SPA básica) com seções bem definidas:
+📰 Seções organizadas por modalidades esportivas
 
-- **Home:** Apresentação do portal.
-- **Esportes:** Lista e galeria com imagens dos esportes em destaque.
-- **Notícias:** Atualizações esportivas e eventos.
-- **Agenda:** Programação de jogos e eventos ao vivo.
-- **Vídeos:** Destaques esportivos em vídeo.
-- **Contato:** Formulário para envio de mensagens.
+🖼️ Galeria de imagens esportivas
 
-## 💻 Tecnologias utilizadas
+📹 Destaques em vídeo incorporados do YouTube
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+🗓️ Agenda de eventos esportivos
 
-## 📁 Estrutura de arquivos
+📬 Formulário de contato com validação
 
+📜 Scroll suave entre seções
+
+⏳ Tela de carregamento (loader)
+
+📱 Layout responsivo para diferentes dispositivos
+
+🖼️ Estrutura da Página
+
+O portal é organizado em seções:
+
+Home – Apresentação do portal
+
+Esportes – Galeria e destaques por modalidade
+
+Notícias – Informações e eventos esportivos
+
+Agenda – Programação de jogos e eventos
+
+Vídeos – Conteúdos esportivos incorporados
+
+Contato – Formulário de envio de mensagens
+
+🛠️ Tecnologias Utilizadas
+
+HTML5
+
+CSS3
+
+JavaScript (Vanilla JS)
+
+📂 Estrutura do Projeto
 portal-de-esportes/
 ├── index.html
 ├── styles.css
-├── script.js (embutido no HTML)
+├── script.js
 ├── imagens/
-│ ├── futebol.jpg
-│ ├── basquete.jpg
-│ ├── natacao.jpg
-│ ├── ciclismo.jpg
-│ ├── automobilismo.jpg
-│ ├── tenis.jpg
-│ └── volei.jpg
-├── portal de esportes aw.png
+│   ├── futebol.jpg
+│   ├── basquete.jpg
+│   ├── natacao.jpg
+│   ├── ciclismo.jpg
+│   ├── automobilismo.jpg
+│   ├── tenis.jpg
+│   └── volei.jpg
+├── portal-de-esportes-aw.png
 └── README.md
 
-## 🚀 Como usar
+🌐 Acesse o Projeto Online
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/awaldige/portal-de-esportes.git
+🔗 https://portal-de-esportes.vercel.app/
 
+📸 Prévia
 
-## 🚀 Como usar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/awaldige/portal-de-esportes.git
-Acesse a pasta do projeto e abra o arquivo index.html no navegador:
-
-Clique duas vezes no arquivo ou arraste-o para uma aba do navegador.
-
-📌 Melhorias Futuras
-Integração com API esportiva para notícias em tempo real.
-
-Filtro interativo por tipo de esporte (funcionalidade parcial).
-
-Responsividade aprimorada para dispositivos móveis.
-
-Salvamento de tema (claro/escuro) no localStorage.
-
-🧠 Autor
-André Waldige
-Desenvolvedor Front-End em formação
+![IMG_1333](https://github.com/user-attachments/assets/f4970a09-2165-48c7-92d4-61ef826e0f73)
+![IMG_1334](https://github.com/user-attachments/assets/651dc22c-8518-4704-a623-830c63891a8d)
+![IMG_1336](https://github.com/user-attachments/assets/cbacf5a6-0669-45d4-a4f2-dcab8ab01614)
+![IMG_1335](https://github.com/user-attachments/assets/6c9195d9-fefd-4892-a767-829541c92ad2)
+![IMG_1337](https://github.com/user-attachments/assets/9507190f-8247-4e56-afa2-b11e0ea734f6)
 
 
+
+
+▶️ Como Executar Localmente
+
+Clone o repositório:
+
+git clone https://github.com/awaldige/portal-de-esportes.git
+
+
+Entre na pasta do projeto:
+
+cd portal-de-esportes
+
+
+Abra o arquivo index.html no navegador.
+
+Não é necessário servidor ou backend.
+
+🔮 Melhorias Futuras
+
+Possíveis evoluções do projeto:
+
+Integração com APIs esportivas em tempo real
+
+Filtro por modalidades esportivas
+
+Salvamento de tema claro/escuro no navegador
+
+Melhorias de responsividade para mobile
+
+Painel de notícias dinâmicas
+
+🤝 Contribuições
+
+Contribuições são bem-vindas. Você pode:
+
+Abrir issues para sugestões ou bugs
+
+Enviar pull requests
+
+Compartilhar melhorias
+
+👨‍💻 Autor
+
+Desenvolvido por André Waldige
+Projeto voltado para estudo e portfólio em desenvolvimento web.
