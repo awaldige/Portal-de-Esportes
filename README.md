@@ -97,6 +97,16 @@ Praticar e demonstrar conhecimentos de desenvolvimento front-end, incluindo estr
 
 ## 👨‍💻 Autor
 
-**André Waldige — AW TECHNOLOGY**
+André Waldige | AW TECHNOLOGY
+
+Desenvolvedor web focado na criação de sites, sistemas web e soluções digitais para empresas. Trabalho com desenvolvimento front-end e back-end, buscando criar projetos funcionais, responsivos e com uma boa experiência para o usuário.
+
+## 🌐 Conecte-se comigo
+
+💼 Portfólio: http://andre-waldige.vercel.app
+
+🐙 GitHub: [@awaldige](https://github.com/awaldige)
+
+📸 Instagram: @awtechnologybr
 
 Projeto desenvolvido para fins de estudo e portfólio em desenvolvimento web.
